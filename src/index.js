@@ -18,4 +18,8 @@ class Subtractor {
   }
 }
 
-module.exports = { sum, Subtractor };
+function multiply(a, b) {
+  return a * b;
+}
+
+module.exports = { sum, Subtractor, multiply };
