@@ -2,6 +2,10 @@ function sum(a, b) {
   return a + b;
 }
 
+function multiply(a, b) {
+  return a * b;
+}
+
 /**
  * Performs subtraction operations.
  */
@@ -18,4 +22,4 @@ class Subtractor {
   }
 }
 
-module.exports = { sum, Subtractor };
+module.exports = { sum, multiply, Subtractor };
